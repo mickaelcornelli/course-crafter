@@ -1,11 +1,11 @@
-- Edition des chapitres
-- Etiquette du chapitre (état)
-- Description du chapitre
-- Vidéo du chapitre
-- Mux
-- Création d'un fichier banner
-- Création du composant ChapterActions
-- Suppression des vidéos
-- Publication/Dépublication
-- Confetti effets
-- Ajout des tables pour l'affichage des cours et du tri (sort)
+- Filtrage des cours ("asc/desc")
+- Bouton edition dans la table des cours
+- Ajout de la fonctionnalité pour rechercher un cours
+- AJout du boutton nouveau cours
+- Barre des categories de cours + nav (en mode élève) + filtre par catégorie
+- Affichage des cours publiés
+- Ouverture des chapitres en mode éleves et redirection vers contenu
+- Affichage de la banderole si le cours est payant ou gratuit
+- Affichage du détails du cours (vidéo, prix, description ...)
+- Config stripe + redirection page CB
+- middleware webkook public route
