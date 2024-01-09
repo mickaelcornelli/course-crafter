@@ -1,11 +1,8 @@
-- Filtrage des cours ("asc/desc")
-- Bouton edition dans la table des cours
-- Ajout de la fonctionnalité pour rechercher un cours
-- AJout du boutton nouveau cours
-- Barre des categories de cours + nav (en mode élève) + filtre par catégorie
-- Affichage des cours publiés
-- Ouverture des chapitres en mode éleves et redirection vers contenu
-- Affichage de la banderole si le cours est payant ou gratuit
-- Affichage du détails du cours (vidéo, prix, description ...)
-- Config stripe + redirection page CB
-- middleware webkook public route
+- Barre de progression
+- Bouton pour marquer le cours comme terminé
+- Ajout visuel pour le status des cours actuels/terminés
+- Statistiques (mode enseignant) :
+  -> total ventes/revenus
+  -> graphique
+- Protection du bouton admin (isTeacher)
+- Protection de la modification d'URL pour accéder à des routes enseignant si l'on est élève

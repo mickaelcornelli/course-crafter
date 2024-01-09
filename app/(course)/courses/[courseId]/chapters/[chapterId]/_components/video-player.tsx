@@ -28,14 +28,35 @@ export const VideoPlayer = ({
     isLocked,
     completeOnEnd,
     title,
+    
 }: VideoPlayerProps) => {
     const [isReady, setIsReady] = useState(false);
     const router = useRouter();
     const confetti = useConfettiStore();
 
     const onEnd = async () => {
-        
+        try {
+            if (completeOnEnd) {
+                await axios.put(`/api/courses/${courseId}/chapters/${chapterId}/progress`, {
+                    isCompleted: true
+                })
+
+                if (!nextChapterId) {
+                    confetti.onOpen()
+                }
+
+                toast.success("Progression mise à jour")
+                router.refresh()
+
+                if (nextChapterId) {
+                    router.push(`/courses/${courseId}/chapters/${nextChapterId}`)
+                }
+            }
+        } catch (error) {
+            toast.error("Une erreur s'est produite")
+        }
     }
+
     return (
         <div className="relative aspect-video">
             {!isReady && !isLocked && (
