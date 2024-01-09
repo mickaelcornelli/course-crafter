@@ -1,8 +1,3 @@
-- Barre de progression
-- Bouton pour marquer le cours comme terminé
-- Ajout visuel pour le status des cours actuels/terminés
-- Statistiques (mode enseignant) :
-  -> total ventes/revenus
-  -> graphique
-- Protection du bouton admin (isTeacher)
-- Protection de la modification d'URL pour accéder à des routes enseignant si l'on est élève
+- Ajout d'un background pour le screen d'authentification
+- Ajout d'un background en cas d'échec de résultats lors des recherches de cours
+- Gestion de la langue de Clerk.js
