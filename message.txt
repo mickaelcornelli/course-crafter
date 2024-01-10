@@ -1,3 +1,4 @@
-- Ajout d'un background pour le screen d'authentification
-- Ajout d'un background en cas d'échec de résultats lors des recherches de cours
-- Gestion de la langue de Clerk.js
+- Version package.json
+- Fix next.config.js 
+- Correction de la recherche du combobox (categorie)
+- Correction de l'avertiseement "Image with src "/logo.png" was detected as the Largest Contentful Paint (LCP). Please add the "priority" property if this image is above the fold."

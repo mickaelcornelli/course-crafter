@@ -8,6 +8,7 @@ export const Logo = () => {
       alt="logo"
       src="/logo.png"
       className="rounded-xl"
+      priority={true}
     />
   )
 }
