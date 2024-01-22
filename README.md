@@ -18,3 +18,14 @@ Caractéristiques clés :
     Authentification avec Clerk
     ORM avec Prisma
     Base de données MySQL avec Planetscale
+
+![image](https://github.com/mickaelcornelli/course-crafter/assets/73282517/0866d8dc-a86c-4e2e-9b04-42554a735a52)
+![image](https://github.com/mickaelcornelli/course-crafter/assets/73282517/88016991-d7fc-4047-9c1b-f45c863b3d4c)
+![image](https://github.com/mickaelcornelli/course-crafter/assets/73282517/e49eb237-8f4d-4e95-ac7b-98ac789f6bf1)
+
+![image](https://github.com/mickaelcornelli/course-crafter/assets/73282517/03d141fa-54b9-4a6f-ad8a-81e081e2e093)
+![image](https://github.com/mickaelcornelli/course-crafter/assets/73282517/ecdf5dd1-f925-4d67-b641-ea51a66e5127)
+![image](https://github.com/mickaelcornelli/course-crafter/assets/73282517/67e18ea7-3f64-4dca-8cfd-9fd2b9667742)
+![image](https://github.com/mickaelcornelli/course-crafter/assets/73282517/077c0a2a-81c8-43ef-b6ea-c285de0eb330)
+![image](https://github.com/mickaelcornelli/course-crafter/assets/73282517/248ea4b9-20d0-4b7b-8db2-6731b84f9262)
+![image](https://github.com/mickaelcornelli/course-crafter/assets/73282517/bcac8ca9-7e3e-4724-bb3e-d730ba8da13c)
